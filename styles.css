@@ -1,0 +1,91 @@
+body {
+	font-family: calibri;
+	background-color: rgb(61, 59, 52);
+	color: rgb(189, 228, 228);
+	background-image: url('gradient.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+
+}
+td, th {
+	border-radius: 10px;
+	padding: 5px 5px;
+	border: 1px solid white;
+	border-collapse: collapse;
+	background-color: rgb(112, 100, 100);
+}
+dl {
+	background-color: rgb(107, 94, 94);
+	padding: 15px 15px;
+	border: 2px inset rgb(70, 22, 88);
+	border-radius: 20px;
+	width: 280px;
+}
+dd:nth-child(even){
+	background-color: dimgray;
+	border-radius: 10px;
+	width: 60%;
+}
+dd:nth-child(odd){
+	background-color: gray;
+	border-radius: 10px;
+	width: 60%;
+}
+dd:hover {
+	background-color: black;
+}
+dt {
+	background-color: rgb(82, 62, 82);
+	padding: 5px;
+	border-radius: 10px;
+	width: 70%
+}
+a:link {
+	background-color: clear;
+	color:white;
+	padding: 5px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:visited, a:hover, a:active {
+	background-color: red;
+}
+
+
+p, div {
+	border-radius: 10px;
+	border: 2px inset rgb(70, 22, 88);;
+	padding: 8px;
+	background-color: rgb(77, 74, 67);
+	font-family: segoe ui;
+}
+
+.clicker:hover {
+	background-color: rgb(245, 21, 21);
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+
+h1 {
+	color: rgb(212, 203, 203);
+	background-color: rgb(53, 26, 63);;
+	padding: 15px;
+}
+
+h3 {
+	color: rgb(230, 203, 203);
+	padding: 10px;
+}
+
+img {
+	padding: 5px 5px;
+}
