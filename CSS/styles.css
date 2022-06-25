@@ -6,6 +6,8 @@ body {
 	background-color: rgb(248, 223, 223);
 	background-size: cover;
 	padding: 10px;
+	animation-name: move_left;
+  	animation-duration: 4s;
 
 }
 td, th {
@@ -58,7 +60,14 @@ a:visited, a:hover, a:active {
 	background-color: red;
 }
 
-
+@keyframes move_left{
+	from{
+		float:left;
+	}
+	to{
+		float:right;
+	}
+}
 p, div {
 	border-radius: 10px;
 	border: 2px solid rgb(70, 22, 88);
