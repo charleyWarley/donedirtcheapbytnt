@@ -1,9 +1,9 @@
 body {
 	font-family: calibri;
 	background-color: rgb(61, 59, 52);
-	color: rgb(189, 228, 228);
-	background-image: url('gradient.png');
+	color: rgb(243, 224, 224);
 	background-attachment: fixed;
+	background-color: rgb(248, 223, 223);
 	background-size: cover;
 	padding: 10px;
 
@@ -75,12 +75,14 @@ p, div {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+
+	width: 50%;
 }
 
 
 h1 {
-	color: rgb(212, 203, 203);
-	background-color: rgb(53, 26, 63);;
+	color: rgb(255, 255, 255);
+	background-color: rgb(214, 44, 44);
 	padding: 15px;
 }
 
