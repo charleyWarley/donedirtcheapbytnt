@@ -9,3 +9,12 @@ function exclude(item) {
         document.getElementById(item).innerHTML = "";
     }
 }
+
+const before = "/donedirtcheapbytnt/IMAGES/before.png"
+const after = "/donedirtcheapbytnt/IMAGES/after.png"
+function change_image(id) {
+    let newSource;
+    if (document.getElementById(id).src === before) {newSource = after;}
+    else if (document.getElementById(id).src === after) {newSource = before;}
+    document.getElementById(id).src = newSource;
+}
