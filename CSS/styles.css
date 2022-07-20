@@ -21,6 +21,11 @@ a:active {
 	color: red;
 }
 
+.form {
+	text-align: center; 
+	min-width:260px;
+	border:0px;
+}
 
 .box {
 	border-radius: 10px;

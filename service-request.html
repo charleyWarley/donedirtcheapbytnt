@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<title>Done Dirt Cheap by TNT PLLC</title>
+<title>Request Form | donedirtcheapbytnt</title>
 
 <head>
 	<link rel="icon" type="image/x-icon" href="IMAGES/tntlogo.ico">
@@ -20,83 +20,91 @@
 
 <body>
 
-	<!--This is the title for the whole site-->
+	<!--the header of the form page-->
     <div class="center titleCard">
         <div class="dropdown" style="float:right;">
             <p class="dropbtn">MENU</p>
             <div class="dropdown-content">
               <a href="index.html">Home</a>
-              <a href="service-request.html">Service Request</a>
-              <a href="#contact">Contact Us</a>
             </div>
           </div>
         <h1 class="center" style="width: 90%">Done Dirt Cheap <small>by TNT <small>PLLC</small></small></h1>
     </div>
 
-	<p class="center" style="text-align: center; min-width:260px;background-color:rgb(242, 71, 79);border:0px;"><b>Service Request Form</b></p>
-	<dl style="border:2px solid rgb(70, 22, 88); min-width: 260px" class="center">
-	<br>
-	<dt onclick="select('rooms')">Rooms</dt>
-		<dd id="livingRoom" onclick="exclude('livingRoom')">living room</dd>
-		<dd id="bathRoom" onclick="exclude('bathRoom')">bathroom</dd>
-		<dd id="kitchen" onclick="exclude('kitchen')">kitchen</dd>
-		<dd id="bedRoom" onclick="exclude('bedRoom')">bedroom</dd>
-		<dd id="closet" onclick="exclude('closet')">closet</dd>
+	<div class="center form">
+		<h4><b>Service Request Form</b></h4>
+		<div class="container">
+			<form action="customers.html" method="post" id="signup">
+				<h1>Sign Up</h1>
+				<div class="field">
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" placeholder="Enter your fullname" />
+					<small></small>
+				</div>
+				<div class="field">
+					<label for="email">Email:</label>
+					<input type="text" id="email" name="email" placeholder="Enter your email address" />
+					<small></small>
+				</div>
+				<div class="field">
+					<button type="submit" class="full">Subscribe</button>
+				</div>
+			</form>
+		</div>
+		<dl style="border:2px solid rgb(70, 22, 88); min-width: 260px" class="center">
 		<br>
-	<dt>Floors</dt>
-		<dd id="carpets" onclick="exclude('carpets')">carpets</dd>
-		<dd id="rugs" onclick="exclude('rugs')">rugs</dd>
-		<dd id="hardwood" onclick="exclude('hardwood')">hardwood</dd>
-			<dl style="border:0px;padding: 0px 35px;background-color: unset;">
-			<dd id="vacuum" onclick="exclude('vacuum')">vacuum</dd>
-			<dd id="sweep" onclick="exclude('sweep')">sweep</dd>
-			<dd id="mop" onclick="exclude('mop')">mop</dd>
-			<dd id="disinfect1" onclick="exclude('disinfect1')">disinfect</dd>
-			<dd id="polish1" onclick="exclude('polish1')">polish</dd>
-			</dl>
-	<dt style="min-width: 235px;">Surfaces, fixtures, and appliances</dt>
-		<dd id="dust1" onclick="exclude('dust1')">dust</dd>
-		<dd id="disinfect2" onclick="exclude('disinfect2')">disinfect</dd>
-		<dd id="polish2" onclick="exclude('polish2')"> polish</dd>
+		<dt>Rooms</dt>
+			<dd>living room</dd>
+			<dd>bathroom</dd>
+			<dd>kitchen</dd>
+			<dd>bedroom</dd>
+			<dd>closet</dd>
+			<br>
+		<dt>Floors</dt>
+			<dd>carpets</dd>
+			<dd>rugs</dd>
+			<dd>hardwood</dd>
+				<dl>
+				<dd>vacuum</dd>
+				<dd>sweep</dd>
+				<dd>mop</dd>
+				<dd>disinfect</dd>
+				<dd>polish</dd>
+				</dl>
+		<dt>Surfaces, fixtures, and appliances</dt>
+			<dd>dust</dd>
+			<dd>disinfect</dd>
+			<dd> polish</dd>
+			<br>
+		<dt>Mirrors</dt>
+			<dd>dust</dd>
+			<dd>disinfect</dd>
+			<dd>polish</dd>
+			<br>
+		<dt>Trash</dt>
+			<dd>empty and change liner</dd>
+			<dd>disinfect</dd>
+			<br>
+		<dt> Baseboards</dt>
 		<br>
-	<dt>Mirrors</dt>
-		<dd id="dust2" onclick="exclude('dust2')">dust</dd>
-		<dd id="disinfect3" onclick="exclude('disinfect3')">disinfect</dd>
-		<dd id="polish3" onclick="exclude('polish3')">polish</dd>
+		<dt> Chemical-free cleaning products</dt>
 		<br>
-	<dt>Trash</dt>
-		<dd style="min-width: 170px;">empty and change liner</dd>
-		<dd>disinfect</dd>
-		<br>
-	<dt> Baseboards</dt>
-	<br>
-	<dt style="min-width: 215px;"> Chemical-free cleaning products</dt>
-	<br>
-	<br>
-	<dt class="clicker" style="width: 130px;height: 25px;margin-left:auto;margin-right:auto;" onclick="submit()">CLICK TO SUBMIT</dt>
-	</dl>
-	<br>
-	<br>
-	<br>
-	<form action="/action_page.php" method="get">
-		<label for="fname">First name:</label>
-		<input type="text" id="fname" name="fname"><br><br>
-		<label for="lname">Last name:</label>
-		<input type="text" id="lname" name="lname"><br><br>
-		<input type="submit" value="Submit">
-	  </form>
 
+
+		
+		</div>
+	<br>
 	<hr>
 	<hr>
-
-	<div style="border:none;background-color:transparent;">
-        <h3 id="contact" style="color:gray">Contact Us</h3>
-        <div class="box" style="width: 500px;">
-            <b>our address:</b> <i>[insert address here]</i><br>
-            <b>our email:</b> <i><a href="mailto: donedirtcheapbytnt@gmail.com">donedirtcheapbytnt@gmail.com</a><i><br>
-            <b>our phone number:</b> <i><a tel:3607100518>(360)710-0518</a> </i>
-        </div>
-    </div>
+	<br>
+	<!--the footer of the home page-->
+	<div class="center">
+		<h3 id="contact">Contact Us</h3>
+		<div class="center box" style="width: 500px;">
+			<b>our address:</b> <i>6159 Banner Rd SE, Port Orchard, WA, 98367</i><br>
+			<b>our email:</b> <i><a href="mailto: donedirtcheapbytnt@gmail.com">donedirtcheapbytnt@gmail.com</a><i><br>
+			<b>our phone number:</b> <i>(360)710-0518</i>
+			
 	
 </body>
 </html>

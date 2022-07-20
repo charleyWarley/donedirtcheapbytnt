@@ -1,55 +1,59 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<title>Done Dirt Cheap by TNT PLLC | Home</title>
+<title>Home | donedirtcheapbytnt</title>
 
 
 <head>
 	<link rel="icon" type="image/x-icon" href="IMAGES/tntlogo.ico">
 	<link rel="stylesheet" href="CSS/styles.css">
-	<script src="JS/scripts.js"></script> 
+	<script src="JS/scripts.js"></script>
+    <noscript>Sorry, your browser does not support JavaScript</noscript>
     <img src="IMAGES/american-flag-desktop-background.jpg" style="float:left">
     
     <meta charset="UTF-8">
     <meta name="keywords" content="HTML, CSS, JavaScript, Home Cleaning, Done Dirt Cheap, Cheap">
     <meta name="description" content="A home cleaning service">
-    <meta http-equiv="refresh" content="30">
+    <meta http-equiv="refresh" content="200">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Charles Jacobs, Jr">
+    <script src="form.js">
+
+    </script>
 </head>
 
 <body class="center" style="width:90%">
-
-    <!--This is the title for the whole site-->
+    <!--the header of the home page-->
     <div class="center titleCard">
+        <!--a dropdown menu used for navigation through the site-->
         <div class="dropdown" style="float:right;">
             <p class="dropbtn">MENU</p>
             <div class="dropdown-content">
-              <a href="#">Home</a>
-              <a href="#promise">Our Promise</a>
-              <a href="service-request.html">Service Request</a>
-              <a href="#contact">Contact Us</a>
+              <a href="service-request.html">content coming soon</a>
             </div>
           </div>
         <h1 class="center" style="width: 90%">Done Dirt Cheap <small>by TNT <small>PLLC</small></small></h1>
         <h2 class="center" style="width:100%">Port Orchard, Washington - 360.710.0518 </h2>
     </div>
-    
-    <div>
-        <button onclick="change_image('photoFrame1')" style="float:left">transform</button>
+    <div class="formContainer">
+        <h1>Submit your name and information for a service request:</h1>
+        <label for="fname"></label>
+        <input type="text" placeholder="first name" id="fname"><br>
+        <label for="lname"></label>
+        <input type="text" placeholder="last name" id="lname"><br>
+        <button onclick="sendRequest()" id="sendRequest">Send Request</button>
+    </div>
+    <!-- the before and after frame-->
+    <div class="photoFrame">
+        <button onclick="change_image('photoFrame1')">transform</button>
         <iframe id="photoFrame1" src="IMAGES/before.png" title="photo frame" class="photoFrame"></iframe>
     </div>
 
 
-    <div id="promise">
-        <h3>Our Promise</h3>
+    <div>
+        <h3>Site Is Under Construction</h3>
         <div>
-            <p>This is our promise to you.</p>
-            <p>This is our promise to you.</p>
-            <p>This is our promise to you.</p>
-            <p>This is our promise to you.</p>
-            <p>This is our promise to you.</p>
-            <p>This is our promise to you.</p>
+            <p><a contact()>contact us</a> for more information in the mean time</p>
         </div>
         <br>
 
@@ -60,12 +64,13 @@
     <hr>
     <br>
 
-    <div>
+    <!--the footer of the home page-->
+    <div class="center">
         <h3 id="contact">Contact Us</h3>
-        <div class="box" style="width: 500px;">
-            <b>our address:</b> <i>[insert address here]</i><br>
+        <div class="center box" style="width: 500px;">
+            <b>our address:</b> <i>6159 Banner Rd SE, Port Orchard, WA, 98367</i><br>
             <b>our email:</b> <i><a href="mailto: donedirtcheapbytnt@gmail.com">donedirtcheapbytnt@gmail.com</a><i><br>
-            <b>our phone number:</b> <i><a tel:3607100518>(360)710-0518</a> </i>
+            <b>our phone number:</b> <i>(360)710-0518</i>
         </div>
     
 
